@@ -1,0 +1,122 @@
+@import url('https://rsms.me/inter/inter.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+body{
+    background: black;
+}
+
+#container{
+ background: #111827;
+ height: 719px;
+ width: 550px;
+ margin: 70px auto;
+ 
+}
+
+#top{
+     background: #3A69D2;
+    padding: 60px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+#top p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 20px;
+    
+}
+
+#prices button{
+    background: #D1D4F4;
+    padding: 9px 13px;
+    border-radius: 5px;
+    color: #4A4E74;
+    margin: 20px 0px;
+    border: none;
+    font-size: 16px;
+
+} 
+#prices button:hover{
+    background: #3A69D2;
+}
+
+#remove{
+    background: black;
+    color: #FFFFFF;
+    border: none;
+}
+
+.task{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #D5D4D8;
+    margin: 10px 30px;
+}
+
+
+.action p{
+    color: #D5D4D8;
+    margin: 0 30px;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+#accept{
+    font-size: 14px;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+hr{
+    margin: 40px 30px 20px;
+}
+
+#amount{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+#button{
+ text-align: center;
+ margin: auto;
+}
+
+#invoice{
+    background: #3A69D2;
+    width: 500px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    
+}
+#invoice:hover{
+    background-color: grey;  
+}
